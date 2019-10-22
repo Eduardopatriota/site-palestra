@@ -9,7 +9,25 @@ body{
     justify-content: center;
     margin: 0 auto;
     background: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+ }
+
+ #texto-direita{
+     text-align: right;
+ }  
+
+ #texto-esquerda{
+     background-color: #fff1d2;
+     margin: 0 -500%;
+     padding: 0 500% ;    
+     
+ }
+ 
+
+#cor-azul{
+    color: rgb(61, 85, 167);
+    font-size: 20px;
 }
 
 #logo{
