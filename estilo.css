@@ -5,13 +5,15 @@
 
 
 body{
-    width: 720px;
+    width: 850px;
     justify-content: center;
     margin: 0 auto;
     background: white;
     font-family: 'Montserrat', sans-serif;   
 
  }
+
+ 
  #titulo{
      font-size: 24px;
      border-top:  3px;
@@ -21,7 +23,29 @@ body{
 
  #texto-direita{
      text-align: right;
- }  
+ } 
+ 
+ .row {
+	flex-direction: row;
+}
+.container {
+	max-width: 850px;
+	margin: 0 auto;
+	display: flex;
+	
+}
+
+.item {
+	/* O flex: 1; é necessário para que cada item se expanda ocupando o tamanho máximo do container. */
+	flex: 1;
+	margin: 5px;	
+	text-align: left;
+	font-size: 15px;
+}
+
+#imagem-centro{
+    padding: 0 0 0 150px;
+}
 
  #texto-esquerda{
      background-color: #fff1d2;
